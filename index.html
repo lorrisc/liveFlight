@@ -7,12 +7,22 @@
         <title>Document</title>
 
         <!-- css -->
-        <link href="style.css" rel="stylesheet">
-        <!-- leaflet -->
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
-        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+        <link href="style.css" rel="stylesheet" />
 
-        <script src="Leaflet.RotatedMarker-master/leaflet.rotatedMarker.js"></script>
+        <!-- leaflet -->
+        <link rel="stylesheet" href="node_modules/leaflet/dist/leaflet.css" />
+        <script src="node_modules/leaflet/dist/leaflet.js"></script>
+
+        <!-- leaflet terminator - phase soleil/nuit -->
+        <script src="libraries/L.Terminator.js"></script>
+
+        <!-- leaflet rotatedMarker -->
+        <script src="node_modules/leaflet-rotatedmarker/leaflet.rotatedMarker.js"></script>
+
+        <!-- leaflet marker cluster-->
+        <link rel="stylesheet" href="node_modules/leaflet.markercluster/dist/MarkerCluster.css" />
+        <link rel="stylesheet" href="node_modules/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+        <script src="node_modules/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
     </head>
     <body>
         <section id="maps"></section>
